@@ -38,10 +38,10 @@ namespace DelvUI.Interface.GeneralElements
         public bool SupportChineseCharacters = false;
         public bool SupportKoreanCharacters = false;
 
-        [JsonIgnore] public static readonly List<string> DefaultFontsKeys = new List<string>() { "big-noodle-too_24", "big-noodle-too_20", "big-noodle-too_16" };
+        [JsonIgnore] public static readonly List<string> DefaultFontsKeys = new List<string>() { "sarasa-mono-sc-nerd-regular_20"};
         [JsonIgnore] public static string DefaultBigFontKey => DefaultFontsKeys[0];
-        [JsonIgnore] public static string DefaultMediumFontKey => DefaultFontsKeys[1];
-        [JsonIgnore] public static string DefaultSmallFontKey => DefaultFontsKeys[2];
+        [JsonIgnore] public static string DefaultMediumFontKey => DefaultFontsKeys[0];
+        [JsonIgnore] public static string DefaultSmallFontKey => DefaultFontsKeys[0];
 
         [JsonIgnore] private int _inputFont = 0;
         [JsonIgnore] private int _inputSize = 23;
